@@ -45,6 +45,7 @@ function removeFromCart(productId) {
   renderCart();
 }
 
+
 // Отрисовка корзины
 function renderCart() {
   const cart = getCart();

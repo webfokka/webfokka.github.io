@@ -35,6 +35,7 @@ function initSearch() {
   performSearch();
 }
 
+
 // Основная функция поиска
 function performSearch() {
   const query = searchInput.value.trim().toLowerCase();

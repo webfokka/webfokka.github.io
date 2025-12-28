@@ -88,6 +88,7 @@ async function loadAllProducts() {
   }
 }
 
+
 // Заполнение основной информации о товаре
 function fillProductPage(product) {
   // Breadcrumb
@@ -336,3 +337,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, 100);
 });
+
+if ( document.querySelectorAll('.product__card')[0] ) {;
+    document.querySelectorAll('.product__card p')[0].innerHTML = `Free Shipping\n<span>from ${localStorage.getItem("SportLabValuteMark")}100</span>`;
+}

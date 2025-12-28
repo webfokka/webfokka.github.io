@@ -163,6 +163,7 @@ function updateShowMoreButton() {
   }
 }
 
+
 function loadMoreProducts() {
   const container = document.querySelector('.catalog__right');
   const nextProducts = filteredProducts.slice(displayedCount, displayedCount + ITEMS_PER_LOAD);

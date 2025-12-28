@@ -38,6 +38,7 @@ async function loadAllProducts() {
 
     const data = await Promise.all(responses.map(r => r.ok ? r.json() : []));
     allProducts = data.flat();
+    window.allProducts = allProducts;
 
     // Фильтруем только товары со скидкой (есть old_price)
     saleProducts = allProducts.filter(p => p.old_price !== undefined && p.old_price !== null);
@@ -158,6 +159,7 @@ function updateShowMoreButton() {
     if (showMoreBtn) showMoreBtn.style.display = 'none';
   }
 }
+
 
 function loadMoreProducts() {
   const container = document.querySelector('.catalog__right');

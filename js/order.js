@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadAllProductsForOrder();
 });
 
+
 // Отрисовка товаров на странице заказа
 function renderOrderPage() {
   const cart = getCart();

@@ -67,6 +67,8 @@ async function loadAllProducts() {
   }
 }
 
+
+
 // Универсальная функция заполнения слайдера
 function fillSlider(sliderSelector, productsArray, count) {
   const wrapper = document.querySelector(`${sliderSelector} .swiper-wrapper`);
@@ -86,11 +88,6 @@ function fillSlider(sliderSelector, productsArray, count) {
       [selected[i], selected[j]] = [selected[j], selected[i]];
     }
     selected = selected.slice(0, count);
-  }
-
-  if ( !localStorage.getItem("SportLabValuteMark") ) {
-    localStorage.setItem("SportLabValute", "USD");
-    localStorage.setItem("SportLabValuteMark", "$");
   }
 
   selected.forEach(product => {
