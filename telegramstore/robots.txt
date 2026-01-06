@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /$
+
+# Укажем sitemap и контакты
+Sitemap: https://duck-store.ru/sitemap.xml
+Host: duck-store.ru
+
+# Meta-инфо для Яндекса
+Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content
+
+# Для Яндекса
+User-agent: Yandex
+Crawl-delay: 10
+
+# Для Google
+User-agent: Googlebot
+Allow: /
+
+# Укажем, что разрешено индексировать сайт полностью, кроме указанных директорий
+Allow: /
+
+# Контакт для связи с владельцем
+User-agent: *
+Contact: support@duck-store.ru

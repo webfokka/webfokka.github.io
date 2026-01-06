@@ -1,0 +1,381 @@
+@media ( max-width: 1040px )
+    .container
+        width: 100%
+        padding: 0px 20px
+    .stars-yellow
+        position: absolute
+        top: -40px
+        right: 70px
+        width: 50px
+        img
+            width: 100%
+            filter: blur(2px)
+        &-second
+            top: 20px
+            right: 50px
+            width: 20px
+            filter: blur(2px)
+
+    .stars-white
+        position: absolute
+        top: 45vh
+        left: 70px
+        width: 50px
+        img
+            width: 100%
+            filter: blur(2px)
+        &-second
+            left: 30px
+            top: 49vh
+            width: 30px
+    .catalog
+        &__title, &__subtitle
+            position: relative
+            z-index: 1
+        &__price
+            width: 44%
+        &__buy
+            gap: 4px
+    .block
+        position: absolute
+        left: 20px
+        top: 200px
+        width: 80px
+        img
+            width: 100%
+            filter: blur(1px)
+        &-second
+            left: auto
+            right: 20px
+            top: 500px
+            transform: scale(1, -1)
+        &-third
+            top: 840px
+            left: -40px
+            transform: rotate(40deg)
+        &-four
+            left: auto
+            right: 100px
+            top: 1200px
+            width: 70px
+            transform: scale(1, -1)
+            img
+                filter: blur(3px)
+        &-six
+            left: auto
+            right: 0px
+            width: 200px
+            top: 600px
+            transform: rotate(-10deg)
+
+@media ( max-width: 880px )
+    .catalog
+        &__item
+            flex-direction: column
+            gap: 20px
+            justify-content: flex-start
+            align-items: flex-start
+        &__right
+            width: 100%
+        &__wish
+            grid-template-columns: repeat(2, 1fr)
+
+@media ( max-width: 840px )
+    .catalog
+        // &__item
+        //     width: 100%
+        &__right
+            flex-wrap: wrap
+            gap: 0px
+            margin-top: auto
+        &__price, &__have
+            margin-bottom: 14px
+        &__price, &__have, &__sell, &__buy, &__more, &__show
+            width: 49%
+
+@media ( max-width: 740px )
+    .catalog
+        &__wish
+            grid-template-columns: repeat(1, 1fr)
+
+@media ( max-width: 700px )
+    .service
+        &__card
+            &-four, &-five
+                width: 49%
+
+@media ( max-width: 660px )
+    .header
+        &__body
+            padding: 0px 20px
+        &__left
+            img
+                height: 40px
+        &__name
+            p
+                font-size: 16px
+            span
+                font-size: 10px
+                letter-spacing: 5px
+        // &__name
+        //     transform: scale(0.8) translateX(-16px)
+    .promo
+        height: auto
+        padding: 40px 20px
+        &__title
+            font-size: 32px
+        &__subtitle
+            font-size: 26px
+    // .service
+    //     &__block
+    //         flex-wrap: wrap
+    //         gap: 0px
+    //     &__card
+    //         width: 49%
+    //         margin-bottom: 10px
+    .info
+        *
+            margin-bottom: 14px
+        &__title
+            font-size: 16px
+        &__text
+            font-size: 14px
+        ul
+            li
+                font-size: 14px
+    .buy, .ton, .deposit
+        &__body
+            width: calc( 100% - 20px )
+            padding: 40px 20px
+    .pay, .order
+        width: calc( 100% - 20px )
+        padding: 40px 20px
+    .decor
+        top: 480px
+    // .catalog
+    //     &__wish
+    //         grid-template-columns: repeat(2, 1fr)
+
+@media ( max-width: 660px )
+    .header
+        &__tg, &__bag, &__profile
+            padding: 0px
+            width: 40px
+            p
+                display: none
+
+@media ( max-width: 560px )
+    .main
+        padding: 40px 0px
+        padding-top: 100px
+    .promo
+        margin-bottom: 40px
+        &__card
+            padding: 4px 10px
+            p
+                font-size: 14px
+            img
+                width: 24px
+    .catalog
+        &__right
+            flex-wrap: wrap
+        &__item
+            padding: 20px 10px
+        &__price, &__have, &__sell, &__buy, &__ton, &__show, &__more
+            width: 48%
+    .adv
+        &__card
+            width: 46%
+    .decor
+        top: 450px
+        transform: scale(0.7) rotate(26deg)
+        right: -200px
+    .info
+        ul
+            li
+                &::after
+                    width: 4px
+                    height: 4px
+                    top: 9px
+    .app
+        &-login
+            width: calc( 100vw - 20px )
+            // width: 100%
+            border-radius: 10px
+            padding: 20px
+    .auth
+        &__body
+            // width: calc( 100% - 20px )
+            border-radius: 10px
+    .stars-white
+        position: absolute
+        top: 320px
+        left: 70px
+        width: 50px
+        img
+            width: 100%
+            filter: blur(2px)
+        &-second
+            left: 30px
+            top: 370px
+            width: 30px
+    .sold
+        position: absolute
+        top: 540px
+        right: 4%
+        filter: blur(2px)
+        transform: rotate(10deg)
+
+@media ( max-width: 500px )
+    .catalog
+        &__item
+            width: 100%
+        &__column
+            width: 100%
+    .service
+        &__block
+            gap: 0px
+            justify-content: space-between
+        &__card
+            width: 49%
+            margin-bottom: 10px
+            &-four
+                width: 100%
+
+@media ( max-width: 440px )
+    .container
+        padding: 0px 10px
+    .promo
+        height: auto
+        padding: 40px 14px
+        &__title
+            font-size: 26px
+        &__subtitle
+            font-size: 20px
+        &__block
+            p
+                font-size: 12px
+                padding: 6px
+        &__card
+            position: relative
+            z-index: 1
+    .service
+        &__title
+            font-size: 20px
+        &__card
+            height: 46px
+            padding: 6px 0px
+            p
+                font-size: 12px
+            &-four
+                span
+                    font-size: 10px
+                    top: 50px
+    .catalog
+        &__title
+            font-size: 20px
+        &__subtitle
+            font-size: 16px
+        &__price, &__have, &__sell, &__buy
+            span
+                font-size: 14px
+        &__buy-gift
+            width: 100%
+        &__info
+            p
+                font-size: 14px
+                line-height: 1.4
+            span
+                font-size: 12px
+    .buy
+        &__body
+            padding: 60px 10px
+            padding-bottom: 20px
+        &__title
+            font-size: 20px
+        &__info
+            p
+                font-size: 14px
+            span
+                font-size: 12px
+        &__price, &__have, &__sell
+            span
+                font-size: 14px
+        &__descr
+            p
+                font-size: 14px
+    .pay, .order
+        &__title
+            font-size: 20px
+        &__variable
+            font-size: 14px
+        &__list
+            gap: 6px
+        &__valute
+            border-radius: 6px
+            p
+                font-size: 14px
+            img
+                height: 20px
+    .com
+        &__title
+            font-size: 20px
+    .review, .star
+        &__body
+            width: calc( 100% - 20px )
+            padding: 60px 20px
+            padding-bottom: 40px
+    .adv
+        &__title
+            font-size: 20px
+        &__block
+            padding-top: 40px
+        &__card
+            width: 100%
+            margin-bottom: 80px
+            img
+                width: 35%
+    .ton
+        &__line
+            flex-wrap: wrap
+            gap: 20px
+        &__card
+            width: 100%
+    .app
+        &-login
+            padding: 20px 10px
+        &__line
+            flex-wrap: wrap
+        &__open
+            height: 36px
+        &__card
+            padding: 0px 10px
+            p
+                left: 10px
+            span
+                word-wrap: break-all
+
+@media ( max-width: 400px )
+    .header
+        &__right
+            gap: 4px
+        &__tg, &__bag, &__profile, &__support
+            transform: scale(0.9)
+            // width: 36px
+            // height: 36px
+            // max-width: 36px
+            // img, svg
+            //     width: 20px
+            //     height: 20px
+    .bag
+        &__body
+            border-radius: 0px
+            width: 100%
+        &__title
+            font-size: 18px
+        &__empty
+            svg
+                width: 70px
+    .catalog
+        &__wish
+            grid-template-columns: repeat(1, 1fr)
