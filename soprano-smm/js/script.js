@@ -238,3 +238,16 @@ document.querySelector('.contact__button').addEventListener('click', event => {
         }, 3000 )
     }
 })
+
+// Убираем окно загрузки
+window.addEventListener('load', () => {
+    setTimeout( ()=>{
+        document.querySelector('.loading__text').style.animation = "none";
+        setTimeout( ()=>{
+            document.querySelector('.loading__text').style.transform = "scale(0)";
+            setTimeout( ()=>{
+                document.querySelector('.loading').style.top = "-120vh";
+            }, 400 )
+        }, 100 )
+    }, 1500 )
+});
