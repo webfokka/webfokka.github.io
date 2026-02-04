@@ -1263,6 +1263,9 @@ body {
   .promo__text {
     display: none;
   }
+  .promo__title {
+    text-shadow: 0px 0px 4px rgba(16, 16, 16, 0.3529411765);
+  }
   .title h2 {
     font-size: 22px;
   }
