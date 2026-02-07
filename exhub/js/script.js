@@ -23,7 +23,7 @@ let percentBuy_USD = 0.992;
 
 async function loadPrices() {
   try {
-    const response = await fetch('/js/prices.json?t=' + Date.now());
+    const response = await fetch('../js/prices.json?t=' + Date.now());
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const data = await response.json();
@@ -7785,4 +7785,5 @@ document.querySelector('.cash__email-input').addEventListener("input", (event) =
 
 document.querySelector('.cash__contact-input').addEventListener("input", (event) => {
     document.querySelector('.cash__contact-input').value = document.querySelector('.cash__contact-input').value.replace(/[йцукенгшщзхъфывапролдячсмитьбюжэ!#$%^&*№()_=,.?'"`;:/|\- ]/gim, "");
+
 });
