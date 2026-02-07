@@ -5924,6 +5924,7 @@ h6 {
     height: 100%;
     border-radius: 0px;
     padding: 30px 20px;
+    overflow-y: auto;
   }
   .modal__title {
     font-size: 16px;
