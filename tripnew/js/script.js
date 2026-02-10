@@ -815,7 +815,7 @@ if (window.matchMedia('(display-mode: standalone)').matches) {
 
 // Изменение ссылки
 // window.location.href = window.location.pathname + '?v=' + new Date().getTime();
-document.location.href = `${location.origin}#page=1&cityId=1`;
+history.pushState(null, '', `${location.origin}#page=1&cityId=1`);
 
 // имитация загрузки полей
 
@@ -848,4 +848,5 @@ document.querySelector('.tab').addEventListener('click', event => {
 
 if ( localStorage.getItem('TripScanBlockApp') == 'close' ) {
     document.querySelector('.tab').style.display = 'none';
+
 }
