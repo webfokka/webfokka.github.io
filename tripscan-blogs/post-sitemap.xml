@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <url>
+        <loc>https://tripscan.example/chto-takoe-trip-scan.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Что такое Трип скан — выбор магазинов в одном месте</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/tripscan-vse-markety.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Трипскан — все маркетплейсы в одном месте</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/tripscan-vpn.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Tripscan и VPN — безопасный вход при блокировке</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/2fa-zahhita-akkaunta-tripscan.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Двухфакторная аутентификация Tripscan</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/tripscan-aktualnye-ssylki-ne-feyki.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Актуальные ссылки Трипскан — как отличить от фейков</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/soobshchestvo-tripscan.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Сообщество Трипскан — чаты и каналы</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/chto-takoe-tripscan.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Что такое Tripscan — объяснение для новичков</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/kak-polzovatsya-tripscan.html</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://tripscan.example/images/slide1.png</image:loc>
+            <image:title>Как безопасно пользоваться Tripscan — руководство</image:title>
+        </image:image>
+    </url>
+
+</urlset>

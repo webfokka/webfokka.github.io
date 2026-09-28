@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://tripscan.example/category/bezopasnost/</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/category/obzor-servisa/</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/category/rukovodstvo/</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://tripscan.example/category/soobshchestvo/</loc>
+        <lastmod>2025-01-15T10:00:00+03:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
